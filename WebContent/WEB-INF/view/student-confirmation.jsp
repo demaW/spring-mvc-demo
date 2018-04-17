@@ -7,5 +7,9 @@
 </head>
 <body>
 <h2>Student: ${student.firstName}  ${student.lastName} </h2>
+<br>
+<h3>Gender: ${student.gender}</h3>
+<br>
+<h3>Favorite language: ${student.favoriteLanguage}</h3>
 </body>
 </html>
