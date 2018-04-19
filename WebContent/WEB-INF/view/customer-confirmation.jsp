@@ -8,7 +8,8 @@
 <body>
 <h2>Customer: ${customer.firstName}  ${customer.lastName} </h2>
 <br>
-<br>
 <h3>Free passes: ${customer.freePasses} </h3>
+<br>
+<h3>Postal code: ${customer.postalCode} </h3>
 </body>
 </html>
