@@ -9,6 +9,8 @@
 <a href="showForm">Go to Hello World form</a>
 <br><br>
 <a href="st/showForm">Go to Student Spring form</a>
+<br><br>
+<a href="customer/showForm">Go to Customer Spring form</a>
 </body>
 
 </html>
