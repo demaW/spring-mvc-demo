@@ -31,7 +31,7 @@ public class CustomerController {
 		model.addAttribute("customer", new Customer());
 		return "customer-form";
 	}
-	
+
 	@InitBinder
 	public void initBinder(WebDataBinder dataBinder) {
 		StringTrimmerEditor stringTrimmerEditor = new StringTrimmerEditor(true);

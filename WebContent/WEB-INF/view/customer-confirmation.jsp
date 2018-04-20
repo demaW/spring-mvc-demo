@@ -11,5 +11,8 @@
 <h3>Free passes: ${customer.freePasses} </h3>
 <br>
 <h3>Postal code: ${customer.postalCode} </h3>
+
+<br>
+<h3>Course code: ${customer.courseCode} </h3>
 </body>
 </html>

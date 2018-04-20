@@ -6,7 +6,12 @@ import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Pattern;
 import javax.validation.constraints.Size;
 
+import com.dem.springdemo.annotation.CourseCode;
+
 public class Customer {
+	
+	@CourseCode
+	public String courseCode;
 
 	@Min(value = 0, message = "must be greater than or equal zero")
 	@Max(value = 10, message = "must me less or equal to 10")
@@ -53,4 +58,14 @@ public class Customer {
 	public void setPostalCode(String postalCode) {
 		this.postalCode = postalCode;
 	}
+
+	public String getCourseCode() {
+		return courseCode;
+	}
+
+	public void setCourseCode(String courseCode) {
+		this.courseCode = courseCode;
+	}
+	
+	
 }
